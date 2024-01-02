@@ -1,0 +1,71 @@
+body{
+    background-color:rgb(45, 155, 199)
+}
+.row{
+    display: flex;
+}
+.codinglab img{
+    width: 20px;
+padding: 0px-20px;
+margin: 0px-4px;
+}
+.head-01{
+    width: 600px;
+    padding:0px 120px;
+}
+.codinglab  p{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    padding: 10px 0px;
+    color:skyblue
+}
+.codinglab{
+    background-color:rgb(8, 102, 139);
+    margin: 0px-4px;
+    padding: 20px 40px 30px;
+    width: 60%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 32px cornflowerblue;
+}
+.codinglab h3{
+    font-size: 50px;
+    padding: 25px;
+    color:skyblue
+
+}
+section{
+    padding: 60px 0px;
+}
+.head-01 h1{
+    font-size: 150px;
+    padding: 0px 0px 0px 125px;
+position: relative;
+}
+.head-01::before{
+    content:initial;
+    height: 200px;
+    border-left: 40px solid cornflowerblue;
+    position: absolute;
+    top: 0px;
+    left: 60px;
+    border-radius: 20px;
+}
+span{
+    color:skyblue 
+}
+.corousel-item img{
+    width: 100%;
+}
+.codinglab p:hover{
+    background:white;
+    padding: 20px 0px;
+    border-radius: 10px;
+    color:black;
+}
+.codinglab>h3 img{
+    height: auto;
+}
+u{
+    color:rgb(8, 102, 139);
+}
